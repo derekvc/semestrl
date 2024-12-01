@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #064214;
+    font-size: 50px;
+    margin: 0;
+}
+nav a {
+    font-family: cursive;
+    font-size: larger;
+    margin: 0 10px;
+    color: #333;
+    text-decoration:dashed;
+    padding: 75px ;
+}
+
+nav a:hover {
+    color: #064214;
+}
+
+.basket {
+    background-color: #064214;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.user-details {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.user-details h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.user-details button {
+    background-color: #064214;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.user-details button:hover {
+    background-color: #064214;
+}
+
+.details, .misc-info, .reports, .access-activity, .mobile-access {
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.details p, .misc-info ul, .reports p, .access-activity p, .mobile-access p {
+    margin: 5px 0;
+}
+
+.misc-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #064214;
+    color: white;
+    padding: 1em;
+    margin-top: 20px;
+}

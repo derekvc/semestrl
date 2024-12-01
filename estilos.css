@@ -1,0 +1,154 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #064214;
+    font-size: 50px;
+    margin: 0;
+}
+
+nav a {
+    font-family: cursive;
+    font-size: larger;
+    margin: 0 10px;
+    color: #333;
+    text-decoration:dashed;
+    padding: 75px ;
+}
+
+nav a:hover {
+    color: #064214;
+}
+
+.basket {
+    background-color: #064214;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 25px;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.gallery img {
+    width: 1000px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 1500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about img {
+    float: right;
+    margin: 0 0 100px 150px;
+    max-width: 500px;
+}
+
+.about h2 {
+    color: #064214;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.about p {
+    font-size: 20px;
+}
+footer {
+    background-color: #064214;
+    color: white;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-section p a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    font-size: 14px;
+}
